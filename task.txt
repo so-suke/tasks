@@ -1,0 +1,16 @@
+テーブル定義
+  sail artisan make:model Task --migration
+  sail artisan make:seeder TasksSeeder
+
+  sail artisan migrate:fresh --seed
+画面作成
+機能別関数作成
+
+タスク
+- ヘッダー
+- 登録フォーム
+- タスク一覧
+ - タスク一覧(未完了)
+ - タスク一覧(完了済)
+
+- タスク一覧表示機能
